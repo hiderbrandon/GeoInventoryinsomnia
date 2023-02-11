@@ -1,0 +1,41 @@
+_id: req_95d2c71957a044fba0e9cda83490041b
+type: Request
+parentId: fld_fbb7d8582be74dc9a19740b6883d2195
+modified: 1676153197501
+created: 1675826634060
+url: "{{ _.url }}/items/"
+name: createOneItems
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "image": "string",
+    	"coordinates": {
+    		 "type": "string" ,
+    		 "coordinates":[1 ,1 ]
+    	 } ,
+    	"properties": {
+        "title": "string", 
+        "description": "string" 
+    }, 
+    	"idUser": 3,
+    	"idType": "string",
+    	"name":"string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1675823826500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

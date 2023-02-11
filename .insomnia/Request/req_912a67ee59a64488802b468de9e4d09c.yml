@@ -1,0 +1,33 @@
+_id: req_912a67ee59a64488802b468de9e4d09c
+type: Request
+parentId: fld_5e59b9e8a7a8463eaea15667d041e00d
+modified: 1676153181252
+created: 1675964874622
+url: "{{ _.url }}/users/signup"
+name: createUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "ad",
+    	"name": "usuarioAnonimo",
+    	"idBoss": 0,
+    	"password":"123456",
+    	"email":"musuarioAnonimo@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_99b36a467877492db4c7fd7faff39d25
+authentication: {}
+metaSortKey: -1675840981154.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

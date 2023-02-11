@@ -1,0 +1,33 @@
+_id: req_ef548d59b76c4442ace0902fd67c6c78
+type: Request
+parentId: fld_fbb7d8582be74dc9a19740b6883d2195
+modified: 1676153211452
+created: 1675827969331
+url: "{{ _.url }}/items/3/63e6990ed8269ff99bf2cb0c"
+name: deleteOneItem
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0fef5f4e70f948c1ac7a745d64314a3d
+  - id: pair_90a8a5e917fb424cbbf3326c331ca6e8
+    name: Authorization
+    value: "12345"
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: false
+metaSortKey: -1675823826487.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

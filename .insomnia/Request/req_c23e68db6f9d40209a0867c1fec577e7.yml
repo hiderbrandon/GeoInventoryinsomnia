@@ -1,0 +1,27 @@
+_id: req_c23e68db6f9d40209a0867c1fec577e7
+type: Request
+parentId: fld_5e59b9e8a7a8463eaea15667d041e00d
+modified: 1676153138524
+created: 1675961063564
+url: "{{ _.url }}/users"
+name: getAllUsers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_45e02acd70e549c8a85c14057ce788bc
+    name: Authorization
+    value: "123456"
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWQiLCJzdWIiOjEsImlhdCI6MTY3NjAwMjU2MiwiZXhwIjoxNjc2ODY2NTYyfQ.D9phH1sVI1k_Lw9RJuayd_MxiVphcudutVZyk52O6bo
+metaSortKey: -1675961063564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

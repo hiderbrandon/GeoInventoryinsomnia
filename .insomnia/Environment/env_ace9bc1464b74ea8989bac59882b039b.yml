@@ -1,0 +1,16 @@
+_id: env_ace9bc1464b74ea8989bac59882b039b
+type: Environment
+parentId: env_1cfae108cb71e72e5656183f8838ca78badcdf14
+modified: 1676153156554
+created: 1676058249978
+name: GeoInventory
+data:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWQiLCJzdWIiOjEsImlhdCI6MTY3NjA1OTE4MiwiZXhwIjoxNjc2OTIzMTgyfQ.0hsDLDMcjS9-Vvl6z_-g1MXK84YexalI0g5pv8ASFJY
+  url: http://localhost:3000
+dataPropertyOrder:
+  "&":
+    - token
+    - url
+color: "#db0000"
+isPrivate: false
+metaSortKey: 1676058249978

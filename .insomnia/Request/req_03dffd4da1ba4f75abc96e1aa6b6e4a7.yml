@@ -1,0 +1,34 @@
+_id: req_03dffd4da1ba4f75abc96e1aa6b6e4a7
+type: Request
+parentId: fld_0babd86b5aca4ce5ba0e23da9f73037a
+modified: 1676153147853
+created: 1675997016060
+url: "{{ _.url }}/auth/login"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username":"hiderbrandon@gmail.com",
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91966436c38f4bc28ca522737e86857f
+  - id: pair_1bcb74de66aa488e9cd3dafaca1eb1e8
+    name: Authorization
+    value: "123456"
+    description: ""
+authentication: {}
+metaSortKey: -1675997016060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

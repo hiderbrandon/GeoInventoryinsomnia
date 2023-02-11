@@ -1,0 +1,42 @@
+_id: req_6f1df8a7182d40a7b8616f8722388d6b
+type: Request
+parentId: fld_fbb7d8582be74dc9a19740b6883d2195
+modified: 1676153204065
+created: 1676058472182
+url: "{{ _.url }}/items/"
+name: updateOneItem
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "image": "string2",
+    	"coordinates": {
+    		 "type": "string" ,
+    		 "coordinates":[221222,555555 ]
+    	 } ,
+    	"properties": {
+        "title": "string", 
+        "description": "string" 
+    }, 
+    	"idUser": 3,
+    	"idType": "string",
+    	"name":"string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: false
+metaSortKey: -1675823826493.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

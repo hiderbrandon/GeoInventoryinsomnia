@@ -1,0 +1,29 @@
+_id: req_7082f2cf68e84d3ea633894d120534ea
+type: Request
+parentId: fld_5e59b9e8a7a8463eaea15667d041e00d
+modified: 1676153174257
+created: 1675964765821
+url: "{{ _.url }}users/1"
+name: updateUser
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "ad"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675858135784.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

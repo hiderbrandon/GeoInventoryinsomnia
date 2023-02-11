@@ -1,0 +1,24 @@
+_id: req_e964299ba07a4262a2168b74a20a068a
+type: Request
+parentId: fld_fbb7d8582be74dc9a19740b6883d2195
+modified: 1676153218710
+created: 1675824456865
+url: "{{ _.url }}/items/3"
+name: gatItemsByUser
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1675823826475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
